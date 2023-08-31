@@ -24,6 +24,11 @@ int is_prime_number(int n)
     return 1; /* n is prime */
 }
 
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
     int r;
@@ -44,5 +49,5 @@ int main(void)
     printf("%d\n", r);
     r = is_prime_number(7919);
     printf("%d\n", r);
-    return 0;
+    return (0);
 }
